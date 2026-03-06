@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: radio-video-stream
+    env: docker
+    dockerfilePath: Dockerfile
+    dockerContext: .
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3000
