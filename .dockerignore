@@ -1,8 +1,0 @@
-node_modules
-public/hls/*.ts
-public/hls/*.m3u8
-*.log
-.env
-.git
-.gitignore
-README.md
